@@ -1,4 +1,4 @@
-import { useContext } from "react";
-import { TodoContext } from "./TodoContext";
+import { useContext } from 'react'
+import { TodoContext } from './TodoContext'
 
-export const useTodo = () => useContext(TodoContext);
+export const useTodo = () => useContext(TodoContext)
