@@ -9,12 +9,12 @@ const initialState = {
     {
       text: 'React Hooks',
       completed: false,
-      id: 0
+      id: 'b967afe24b23'
     },
     {
       text: 'Context',
       completed: true,
-      id: 1
+      id: 'b967afe24a13'
     }
   ],
   visibilityFilter: 'All'
