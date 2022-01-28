@@ -6,7 +6,7 @@ export const reducer = (state, action) => {
       return {
         todos: [
           {
-            id: Math.random()
+            id: crypto.randomUUID()
               .toString(16)
               .substring(2),
             completed: false,
